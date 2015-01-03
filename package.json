@@ -1,0 +1,33 @@
+{
+    "name"        : "train-map",
+    "description" : "high level database for Ticket to Ride",
+    "homepage"    : "https://github.com/daxxog/train-map",
+    "main"        : "train-map.min.js",
+    "version"     : "0.0.1",
+    "engines": {
+        "node" : ">=0.10.33"
+    },
+    "maintainers": [{
+        "name"  : "David Volm",
+        "email" : "david@volminator.com",
+        "web"   : "http://daxxog.com/"
+    }],
+    "repository": {
+        "type" : "git",
+        "url"  : "https://github.com/daxxog/train-map.git"
+    },
+    "devDependencies": {
+        "bitfactory": "*",
+        "stoptime": "*",
+        "uglify-js": "*",
+        "vows": "*"
+    },
+    "scripts": {
+        "build": "node make.js",
+        "test": "vows test/*",
+        "prepublish": "npm run build"
+    },
+    "files": [
+        "train-map.min.js"
+    ]
+}
