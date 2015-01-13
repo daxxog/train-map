@@ -9,11 +9,11 @@ Install
 -------
 stable
 ```bash
-npm install -g train-map
+npm install train-map
 ```
 edge
 ```bash
-npm install -g https://github.com/daxxog/train-map/tarball/master
+npm install https://github.com/daxxog/train-map/tarball/master
 ```
 
 [travis-image]: https://img.shields.io/travis/daxxog/train-map.png?branch=master
